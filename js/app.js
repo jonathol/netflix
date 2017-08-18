@@ -1,6 +1,6 @@
 $(function () {
   var tabs = $('#features > nav a');
-  var tabsContent = $('#features > nav > article > section');
+  var tabsContent = $('#features > article > section');
 
   tabs.click(function (e){
     e.preventDefault();
